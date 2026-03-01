@@ -1,0 +1,36 @@
+# === Python virtual environment ===
+.venv/
+
+# === Dependencies ===
+llama.cpp/
+
+# === Output files ===
+output/adapters/
+output/fused/
+output/gguf/
+output/{adapters,fused,gguf}/
+
+# === Secrets / config ===
+*.env
+.env
+
+# === HuggingFace Cache ===
+models/
+*.safetensors
+*.bin
+*.pt
+
+# === Python ===
+__pycache__/
+*.pyc
+
+# === macOS ===
+.DS_Store
+
+# === IDE ===
+.vscode/
+.idea/
+
+# === Temporary ===
+tmp/
+blog/
