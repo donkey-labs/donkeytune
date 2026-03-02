@@ -10,7 +10,7 @@
 v0.0.0      ||     ||
 ```
 
-DonkeyTune is a complete pipeline (a set of scripts) for fine-tuning models on MacBook Air/Pro M1/M2/M3/M4, with export to the GGUF format usable with Docker Model Runner, llama.cpp, Ollama, or any compatible tool.
+DonkeyTune is a complete pipeline (a set of scripts) for fine-tuning models on MacBook Air/Pro M1/M2/M3/M4, with export to the GGUF format usable with [Docker Model Runner](https://docs.docker.com/ai/model-runner/), [Yzma](https://github.com/hybridgroup/yzma), [Kronk](https://github.com/ardanlabs/kronk), llama.cpp, Ollama, or any compatible tool.
 
 > **Notes**:
 > - On a MacBook Air M4 32 GB, I was able to comfortably fine-tune a 4 billion parameter model.
